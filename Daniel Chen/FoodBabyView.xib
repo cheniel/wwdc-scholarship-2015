@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProjectViewController" customModule="Daniel_Chen" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="Oye-Yh-CMY"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="703" height="645"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="food-baby-1" translatesAutoresizingMaskIntoConstraints="NO" id="Ni2-Nr-hLV">
+                    <rect key="frame" x="112" y="8" width="478" height="212"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="food-baby-2" translatesAutoresizingMaskIntoConstraints="NO" id="NpL-KQ-3Cq">
+                    <rect key="frame" x="112" y="226" width="478" height="212"/>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lyC-DM-xiw">
+                    <rect key="frame" x="8" y="481" width="687" height="127"/>
+                    <string key="text">Food Baby is Pebble's first nutrition app. Part-nutritionist, part-digital pet, Food Baby's primary goal is to motivate healthy choices through the raising of a virtual pet. As such, your healthy habits translate to both your well-being and your pet's happiness. Logging your food intake into major food categories "feeds" the pet. The pet provides recommendations for what to eat next to maintain a balanced diet.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ISC-8U-8cf">
+                    <rect key="frame" x="304" y="616" width="95" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="Github">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="openFoodBabyLink" destination="-1" eventType="touchUpInside" id="ekL-9x-csK"/>
+                    </connections>
+                </button>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="I'm hoping to port this app to the Apple Watch!" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VaX-uf-BRS">
+                    <rect key="frame" x="8" y="447" width="687" height="34"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="357.5" y="303.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="food-baby-1" width="720" height="320"/>
+        <image name="food-baby-2" width="720" height="320"/>
+    </resources>
+</document>

@@ -7,11 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7803EF221AEB45B0004A300A /* FoodBabyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7803EF211AEB45B0004A300A /* FoodBabyView.xib */; };
+		784694911AEB3DB00027C9DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 784694901AEB3DB00027C9DA /* Images.xcassets */; };
+		7888DCB91AEB58CA004235F7 /* InteractiveDirectoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7888DCB81AEB58CA004235F7 /* InteractiveDirectoryView.xib */; };
+		7888DCBB1AEB5EAA004235F7 /* SportstatView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7888DCBA1AEB5EAA004235F7 /* SportstatView.xib */; };
+		7888DCBD1AEB641F004235F7 /* PebbleBotView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7888DCBC1AEB641F004235F7 /* PebbleBotView.xib */; };
+		7888DCBF1AEB6717004235F7 /* HackathonsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7888DCBE1AEB6717004235F7 /* HackathonsView.xib */; };
+		7888DCC11AEB79A7004235F7 /* MoreView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7888DCC01AEB79A7004235F7 /* MoreView.xib */; };
+		78B29BBC1AEB33C800BA986E /* ProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B29BBA1AEB33C800BA986E /* ProjectViewController.swift */; };
+		78B29BBD1AEB33C800BA986E /* HiBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78B29BBB1AEB33C800BA986E /* HiBarView.xib */; };
+		78B29BBF1AEB3B1400BA986E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B29BBE1AEB3B1400BA986E /* Constants.swift */; };
+		78B3C2A91AEB09F000FB37D4 /* ProjectsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B3C2A81AEB09F000FB37D4 /* ProjectsTableViewController.swift */; };
+		78B3C2AB1AEB11D300FB37D4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B3C2AA1AEB11D300FB37D4 /* DetailViewController.swift */; };
 		78F54D0D1AEAAC0E00A1E451 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F54D0C1AEAAC0E00A1E451 /* AppDelegate.swift */; };
-		78F54D0F1AEAAC0E00A1E451 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F54D0E1AEAAC0E00A1E451 /* FirstViewController.swift */; };
-		78F54D111AEAAC0E00A1E451 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F54D101AEAAC0E00A1E451 /* SecondViewController.swift */; };
 		78F54D141AEAAC0E00A1E451 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78F54D121AEAAC0E00A1E451 /* Main.storyboard */; };
-		78F54D161AEAAC0E00A1E451 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78F54D151AEAAC0E00A1E451 /* Images.xcassets */; };
 		78F54D191AEAAC0E00A1E451 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78F54D171AEAAC0E00A1E451 /* LaunchScreen.xib */; };
 		78F54D251AEAAC0E00A1E451 /* Daniel_ChenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F54D241AEAAC0E00A1E451 /* Daniel_ChenTests.swift */; };
 /* End PBXBuildFile section */
@@ -27,13 +36,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7803EF211AEB45B0004A300A /* FoodBabyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoodBabyView.xib; sourceTree = "<group>"; };
+		784694901AEB3DB00027C9DA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7888DCB81AEB58CA004235F7 /* InteractiveDirectoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InteractiveDirectoryView.xib; sourceTree = "<group>"; };
+		7888DCBA1AEB5EAA004235F7 /* SportstatView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SportstatView.xib; sourceTree = "<group>"; };
+		7888DCBC1AEB641F004235F7 /* PebbleBotView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PebbleBotView.xib; sourceTree = "<group>"; };
+		7888DCBE1AEB6717004235F7 /* HackathonsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HackathonsView.xib; sourceTree = "<group>"; };
+		7888DCC01AEB79A7004235F7 /* MoreView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoreView.xib; sourceTree = "<group>"; };
+		78B29BBA1AEB33C800BA986E /* ProjectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectViewController.swift; sourceTree = "<group>"; };
+		78B29BBB1AEB33C800BA986E /* HiBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HiBarView.xib; sourceTree = "<group>"; };
+		78B29BBE1AEB3B1400BA986E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		78B3C2A81AEB09F000FB37D4 /* ProjectsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsTableViewController.swift; sourceTree = "<group>"; };
+		78B3C2AA1AEB11D300FB37D4 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		78F54D071AEAAC0E00A1E451 /* Daniel Chen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daniel Chen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78F54D0B1AEAAC0E00A1E451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78F54D0C1AEAAC0E00A1E451 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		78F54D0E1AEAAC0E00A1E451 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		78F54D101AEAAC0E00A1E451 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		78F54D131AEAAC0E00A1E451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		78F54D151AEAAC0E00A1E451 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		78F54D181AEAAC0E00A1E451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		78F54D1E1AEAAC0E00A1E451 /* Daniel ChenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Daniel ChenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78F54D231AEAAC0E00A1E451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,13 +97,22 @@
 		78F54D091AEAAC0E00A1E451 /* Daniel Chen */ = {
 			isa = PBXGroup;
 			children = (
+				784694901AEB3DB00027C9DA /* Images.xcassets */,
 				78F54D0C1AEAAC0E00A1E451 /* AppDelegate.swift */,
-				78F54D0E1AEAAC0E00A1E451 /* FirstViewController.swift */,
-				78F54D101AEAAC0E00A1E451 /* SecondViewController.swift */,
 				78F54D121AEAAC0E00A1E451 /* Main.storyboard */,
-				78F54D151AEAAC0E00A1E451 /* Images.xcassets */,
+				78B3C2AA1AEB11D300FB37D4 /* DetailViewController.swift */,
+				78B3C2A81AEB09F000FB37D4 /* ProjectsTableViewController.swift */,
 				78F54D171AEAAC0E00A1E451 /* LaunchScreen.xib */,
 				78F54D0A1AEAAC0E00A1E451 /* Supporting Files */,
+				78B29BBA1AEB33C800BA986E /* ProjectViewController.swift */,
+				78B29BBB1AEB33C800BA986E /* HiBarView.xib */,
+				78B29BBE1AEB3B1400BA986E /* Constants.swift */,
+				7803EF211AEB45B0004A300A /* FoodBabyView.xib */,
+				7888DCB81AEB58CA004235F7 /* InteractiveDirectoryView.xib */,
+				7888DCBA1AEB5EAA004235F7 /* SportstatView.xib */,
+				7888DCBC1AEB641F004235F7 /* PebbleBotView.xib */,
+				7888DCBE1AEB6717004235F7 /* HackathonsView.xib */,
+				7888DCC01AEB79A7004235F7 /* MoreView.xib */,
 			);
 			path = "Daniel Chen";
 			sourceTree = "<group>";
@@ -164,6 +191,7 @@
 				TargetAttributes = {
 					78F54D061AEAAC0E00A1E451 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 3KC9AXMTPD;
 					};
 					78F54D1D1AEAAC0E00A1E451 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -195,9 +223,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7888DCBB1AEB5EAA004235F7 /* SportstatView.xib in Resources */,
+				7888DCC11AEB79A7004235F7 /* MoreView.xib in Resources */,
+				7803EF221AEB45B0004A300A /* FoodBabyView.xib in Resources */,
+				7888DCB91AEB58CA004235F7 /* InteractiveDirectoryView.xib in Resources */,
 				78F54D141AEAAC0E00A1E451 /* Main.storyboard in Resources */,
+				7888DCBD1AEB641F004235F7 /* PebbleBotView.xib in Resources */,
+				784694911AEB3DB00027C9DA /* Images.xcassets in Resources */,
 				78F54D191AEAAC0E00A1E451 /* LaunchScreen.xib in Resources */,
-				78F54D161AEAAC0E00A1E451 /* Images.xcassets in Resources */,
+				78B29BBD1AEB33C800BA986E /* HiBarView.xib in Resources */,
+				7888DCBF1AEB6717004235F7 /* HackathonsView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,9 +250,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78F54D111AEAAC0E00A1E451 /* SecondViewController.swift in Sources */,
 				78F54D0D1AEAAC0E00A1E451 /* AppDelegate.swift in Sources */,
-				78F54D0F1AEAAC0E00A1E451 /* FirstViewController.swift in Sources */,
+				78B3C2AB1AEB11D300FB37D4 /* DetailViewController.swift in Sources */,
+				78B29BBF1AEB3B1400BA986E /* Constants.swift in Sources */,
+				78B3C2A91AEB09F000FB37D4 /* ProjectsTableViewController.swift in Sources */,
+				78B29BBC1AEB33C800BA986E /* ProjectViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,9 +383,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Daniel Chen/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -356,9 +396,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Daniel Chen/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -415,6 +458,7 @@
 				78F54D2A1AEAAC0E00A1E451 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78F54D2B1AEAAC0E00A1E451 /* Build configuration list for PBXNativeTarget "Daniel ChenTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +467,7 @@
 				78F54D2D1AEAAC0E00A1E451 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

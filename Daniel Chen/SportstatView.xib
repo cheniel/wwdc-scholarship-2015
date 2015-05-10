@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProjectViewController" customModule="Daniel_Chen" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="byo-LP-CEs"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="703" height="645"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z3B-Mh-sV9">
+                    <rect key="frame" x="8" y="318" width="687" height="102"/>
+                    <mutableString key="text">Unfortunately I don't have any screenshots for this app -- it was a final project for a Smartphone Programming (Android) class at Dartmouth, and I didn't think to take any screenshots before I returned the phone. I guess I could use the emulator, but I think we both know how awful Android's emulator is! 😂</mutableString>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ydW-vz-wbd">
+                    <rect key="frame" x="8" y="428" width="687" height="149"/>
+                    <string key="text">Anyways, SportStat is an app for Android and Pebble which is built on a Ruby on Rails backend. It is a basketball data-logging and statistics app. Players log their individual performance (points) on the Pebble or the phone, and can view their performance in comparison to their friends. The Pebble also has automated shot attempt detection, which I implemented using the Pebble accelerometer API.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sportstat" translatesAutoresizingMaskIntoConstraints="NO" id="H0D-mt-afo">
+                    <rect key="frame" x="8" y="8" width="687" height="302"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="agY-7Y-zaJ">
+                    <rect key="frame" x="317" y="585" width="68" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="Website">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="openSportstatLink" destination="-1" eventType="touchUpInside" id="JzK-Ih-2Sf"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="sportstat" width="3000" height="1688"/>
+    </resources>
+</document>
